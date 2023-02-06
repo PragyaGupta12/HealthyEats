@@ -13,21 +13,21 @@
     <section id="container">
         <!-- <h2>Login</h2> -->
         <div id="form-container">
-            <form action="index.html">
+            <form action="login.html">
                 <h2>Sign Up</h2>
                 <div class="form-grp">
                     <label for="username">
-                        <input type="text" id="username" placeholder="Full Name">
+                        <input type="text" id="username" placeholder="Full Name" required>
                     </label>
                 </div>
                 <div class="form-grp">
                     <label for="email">
-                        <input type="email" id="email" placeholder="Email">
+                        <input type="email" id="email" placeholder="Email" required>
                     </label>
                 </div>
                 <div class="form-grp">
                     <label for="contact">
-                        <input type="phone" id="contact" placeholder="Mobile Number">
+                        <input type="tel" id="contact" placeholder="Mobile Number" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" required>
                     </label>
                 </div>
                 <div class="form-grp">
