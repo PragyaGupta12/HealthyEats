@@ -4,11 +4,15 @@
     font-family: Okra, Helvetica, sans-serif;
     color: aliceblue;
 }
+
 body{
     background-image: url(/img/bg4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    /* width: 90%; */
+    /* height: auto; */
     opacity: 0.9;
+    /* display: flex; */
 }
 
 #container{
@@ -16,7 +20,9 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 130px;
+    margin: 130px;
+    /* width: 50%; */
+    /* float: right; */
 }
 #form-login-container{
     display: flex;
@@ -26,7 +32,7 @@ body{
     width: 350px;
     border: 1px solid;
     border-radius: 10px;
-    background-color: whitesmoke;
+    background-color: white;
     /* width: auto; */
     /* opacity: 0.8; */
 }
