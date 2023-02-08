@@ -13,21 +13,17 @@
     <section id="container">
         <!-- <h2>Login</h2> -->
         <div id="form-login-container">
-            <form action="#" name="loginform" onsubmit="return validateform()">
+            <form action="#" name="loginform" onsubmit="return validateform()" method="post">
                 <h2>Login</h2>
                 <div class="form-grp">
-                    <label for="contact">
-                        <input type="tel" id="contact" placeholder="Phone number" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" required>
-                    </label>
+                    <input type="tel" name="contact" placeholder="Phone number" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required><span class="ferror"></span>
                 </div>
                 <div class="form-grp">
                     <button id="form-btn" type="submit">Send the OTP</button>
                 </div>
                 <p>OR</p>
                 <div class="form-grp">
-                    <label for="email">
-                        <input type="email" id="email" placeholder="Email" required>
-                    </label>
+                        <input type="email" name="email" placeholder="Email" required>
                 </div>
                 <div class="form-grp">
                     <button id="form-btn" type="submit">Send the code</button>
