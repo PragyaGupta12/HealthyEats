@@ -71,13 +71,19 @@
     text-align: center;
     justify-content: center;
 }
+#searchdiv input{
+    background-image: url(/img/search16.png);
+    background-repeat: no-repeat;
+    background-position:10px 10px ;
+}
 #searchbar{
-    margin: 40px;
+    margin: 45px;
     width: 300px;
     border-radius: 8px;
     color:black;
     border-color: transparent;
-    padding: 15px;
+    padding: 10px;
+    padding-left: 35px;
     outline: none;
     /* opacity: 0.8; */
 }
