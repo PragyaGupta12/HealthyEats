@@ -23,11 +23,10 @@
 }
 #nav{
     display: flex;
-    /* float: right; */
+    float: right;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    margin-left: 25px;
+    /* margin: 25px; */
 }
 .nav-item{
     /* display: flex; */
@@ -37,7 +36,7 @@
     /* padding: 5px; */
 }
 .nav-item a{
-    padding: 40px;
+    padding: 50px;
     text-decoration: none;
     margin-bottom:15px;
     /* color: aliceblue; */

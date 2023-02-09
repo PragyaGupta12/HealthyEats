@@ -1,6 +1,6 @@
 function seterror(id,error){
     element = document.getElementById(id);
-    element.getElementsByClassName();
+    element.getElementsByClassName('ferror')[0].innerHTML=error;
 }
 function validateform()
 {
