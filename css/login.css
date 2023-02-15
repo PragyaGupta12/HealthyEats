@@ -62,7 +62,7 @@ body{
     color: black;
     outline: none;
 }
-.form-grp button{
+#form-btn{
     background-color:rgb(10, 194, 10);
     border: transparent;
     border-radius: 8px;

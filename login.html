@@ -6,28 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/login.css">
-    <script src="JS/signin.js"></script>
+    <script src="/JS/login.js"></script>
     <title>Login</title>
 </head>
 <body>
     <section id="container">
         <!-- <h2>Login</h2> -->
         <div id="form-login-container">
-            <form action="#" name="loginform" onsubmit="return validateform()" method="post">
+            <form action="#" name="loginform" method="post"> 
+                <!-- onsubmit="return validateform()" -->
                 <h2>Login</h2>
                 <div class="form-grp">
-                    <input type="tel" name="contact" placeholder="Phone number"  required><span class="ferror"></span>
+                    <input type="text" name="username" placeholder="Username"  required><span class="ferror"></span>
                 </div>
                 <div class="form-grp">
-                    <button id="form-btn" type="submit">Send the OTP</button>
+                    <input type="password" name="password" placeholder="Password"  required><span class="ferror"></span>
                 </div>
-                <p>OR</p>
+                <div class="form-grp">
+                    <button id="form-btn" type="submit" onclick="login()">Login</button>
+                </div>
+                <!-- <p>OR</p>
                 <div class="form-grp">
                         <input type="email" name="email" placeholder="Email" required>
                 </div>
                 <div class="form-grp">
                     <button id="form-btn" type="submit">Send the code</button>
-                </div>
+                </div> -->
                 <span>New to HealthyEats?</span><a href="signin.html">Create account</a>
                 <p></p>
             </form>
