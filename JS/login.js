@@ -15,11 +15,12 @@
 
 // }
 // document.getElementById("form-btn").onclick = function login() {
-//     location.href = "afterlogin.html"
+//     location.href = "G:\Angular\CWH\CWH\HealthyEats\afterlogin.html"
 // }
 
-function login()
-{
-var url = "www.google.com";
-window.location.href=url;
-}
+// function login()
+// {
+// window.location.href="G:\Angular\CWH\CWH\HealthyEats\afterlogin.html";
+// }
+// login();
+
