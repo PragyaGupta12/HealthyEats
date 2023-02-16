@@ -17,10 +17,11 @@
 // document.getElementById("form-btn").onclick = function login() {
 //     location.href = "G:\Angular\CWH\CWH\HealthyEats\afterlogin.html"
 // }
+              
 
-// function login()
-// {
-// window.location.href="G:\Angular\CWH\CWH\HealthyEats\afterlogin.html";
-// }
+function login()
+{
+    element = document.getElementById(form-btn);
+}
 // login();
 
