@@ -1,27 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Okra, Helvetica, sans-serif;
     color: aliceblue;
 }
-#container{
+
+#container {
     background-image: url("/img/bg4.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     height: 400px;
     opacity: 0.85;
 }
 
 /* Navigation Bar */
-#nav-head{
+#nav-head {
     height: 75px;
-    background-color: black; 
+    background-color: black;
     opacity: 0.6;
     padding: 10px;
     display: flex;
     /* align-items: center; */
 }
-#nav{
+
+#nav {
     display: flex;
     /* float: right; */
     justify-content: center;
@@ -29,36 +31,42 @@
     /* width: 50%; */
     margin-left: 25px;
 }
-.nav-item{
+
+.nav-item {
     /* display: flex; */
     list-style: none;
     font-size: 1.3rem;
     /* float: right; */
     /* padding: 5px; */
 }
-.nav-item a{
+
+.nav-item a {
     padding: 35px;
     text-decoration: none;
     /* margin-bottom:15px; */
     /* color: aliceblue; */
 }
-.nav-item :hover{
-    color:rgb(10, 194, 10);
+
+.nav-item :hover {
+    color: rgb(10, 194, 10);
 }
-#nav-home{
+
+#nav-home {
     list-style-type: none;
     width: 75%;
     /* float: left; */
 }
-#nav-home img{
+
+#nav-home img {
     height: 55px;
 }
+
 /* #nav-home img:hover{
     height: 75px;
 } */
 
 /* Search Bar */
-#container h1{
+#container h1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,22 +74,25 @@
     font-size: 4rem;
     margin-top: 80px;
 }
-#searchdiv{
+
+#searchdiv {
     height: 300px;
     display: flex;
     text-align: center;
     justify-content: center;
 }
-#searchdiv input{
+
+#searchdiv input {
     background-image: url(/img/search16.png);
     background-repeat: no-repeat;
-    background-position:10px 10px ;
+    background-position: 10px 10px;
 }
-#searchbar{
+
+#searchbar {
     margin: 45px;
     width: 300px;
     border-radius: 8px;
-    color:black;
+    color: black;
     border-color: transparent;
     padding: 10px;
     padding-left: 35px;
@@ -91,7 +102,7 @@
 
 
 /* Main Section */
-#main{
+#main {
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -100,11 +111,12 @@
     /* padding: 20px; */
     /* background-color: lightgray ;    */
 }
+
 /* #main::-webkit-scrollbar { This helps in hiding the scroll bar
     display: none;
   } */
-.card{
-    border: 1px solid lightgray; 
+.card {
+    border: 1px solid lightgray;
     /* padding: 10px; */
     margin: 20px;
     border-radius: 12px;
@@ -112,31 +124,41 @@
     /* height: 300px; */
     /* transition: width 2s; */
 }
-.card:hover{
+
+.card:hover {
     /* border-color: lightgray; */
     box-shadow: 2px 2px lightblue;
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
 }
-.card a{
+
+.card a {
     text-decoration: none;
 }
-.card p, .card h4{
-   color: black;
-   margin: 4px;
-   padding: 5px;
+
+.card p,
+.card h4 {
+    color: black;
+    margin: 4px;
+    padding: 5px;
 }
- /* .card > img{ to keep the image inside the border  
+
+/* .card > img{ to keep the image inside the border  
     width: 100%;
 } */
- .card a img{
+.card a img {
     width: 351px;
     height: auto;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-} 
+}
 
 /* Footer */
-footer{
+footer {
     margin-top: 100px;
     height: 200px;
     background-color: black;
@@ -145,12 +167,13 @@ footer{
     /* color:black; */
 }
 
-#footvalue{
+#footvalue {
     text-align: center;
     padding: 30px;
     list-style: none;
 }
 
-#foot p, #foot hr{
-    margin:30px;
+#foot p,
+#foot hr {
+    margin: 30px;
 }

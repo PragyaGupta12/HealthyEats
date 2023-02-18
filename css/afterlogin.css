@@ -111,10 +111,16 @@
     /* height: 300px; */
     /* transition: width 2s; */
 }
-.card:hover{
+.card:hover {
     /* border-color: lightgray; */
     box-shadow: 2px 2px lightblue;
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
 }
+
 .card a{
     text-decoration: none;
 }
