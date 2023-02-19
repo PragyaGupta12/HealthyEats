@@ -16,12 +16,21 @@
 // }
 // document.getElementById("form-btn").onclick = function login() {
 //     location.href = "G:\Angular\CWH\CWH\HealthyEats\afterlogin.html"
-// }
-              
+// }          
 
 function login()
 {
-    element = document.getElementById(form-btn);
+    let x = document.forms["loginform"]["username"].value
+    // let regex=/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/
+    if(isNaN(x))
+    {
+        alert("hello phone")
+    }
+    else
+    {
+        alert("email")
+    }
+    // element = document.getElementById(form-btn); 
 }
 // login();
 
