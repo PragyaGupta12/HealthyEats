@@ -20,17 +20,7 @@
 
 function login()
 {
-    let x = document.forms["loginform"]["username"].value
-    // let regex=/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/
-    if(isNaN(x)==true)
-    {
-        alert("hello phone")
-    }
-    else
-    {
-        alert("email")
-    }
-    // element = document.getElementById(form-btn); 
+    element = document.getElementById(form-btn); 
 }
 // login();
 
