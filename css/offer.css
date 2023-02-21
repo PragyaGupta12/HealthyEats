@@ -54,7 +54,15 @@
 }
 
 /* Main */
-.main{
+/* .main{
     margin-top: 30px;
     background-color: cornsilk;
+    display: flex;
+    height: 200px;
 }
+#image{
+    display: flex;
+    float: right;
+    height: 100px;
+    margin: 50px;
+} */
