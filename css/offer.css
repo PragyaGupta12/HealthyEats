@@ -54,10 +54,10 @@
 }
 
 /* Main */
-/* .main{
+.main{
     margin-top: 30px;
-    background-color: cornsilk;
-    display: flex;
+    background-color: rgb(0, 77, 0);
+    /* display: flex; */
     height: 200px;
 }
 #image{
@@ -65,4 +65,4 @@
     float: right;
     height: 100px;
     margin: 50px;
-} */
+}
