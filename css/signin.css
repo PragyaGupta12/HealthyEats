@@ -4,19 +4,24 @@
     font-family: Okra, Helvetica, sans-serif;
     color: aliceblue;
 }
-body{
+/* body{
     background-image: url(/img/bg4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
+} */
+#icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
 }
-
 #container{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 #form-container{
     display: flex;

@@ -20,7 +20,7 @@
 
 function login()
 {
-    element = document.getElementById(form-btn); 
+    location.href=''
 }
 // login();
 
