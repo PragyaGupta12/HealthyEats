@@ -20,7 +20,9 @@
 
 function login()
 {
-    location.href=''
+    var x = document.forms['loginform']['username'].value;
+    console.log("Username:", x);
+    sessionStorage.setItem("Username:", x);
 }
-// login();
+
 
