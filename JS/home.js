@@ -1,6 +1,7 @@
 // import {login} from './userData.js'
 
-// var val = sessionStorage.getItem("Username:"); 
-// document.getElementById('user').innerHTML = val;
 // // document.write(`<div id="user1">${val}</div>`);
-document.getElementById("user").innerHTML=sessionStorage.getItem("Username")
+let val=sessionStorage.getItem("Username")
+const val1=document.getElementById("user")
+val1.innerHTML=val
+val1.appendChild(val)
