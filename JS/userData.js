@@ -1,12 +1,7 @@
 function login()
 {
-    let x = document.forms['loginform']['username'].value;
-    sessionStorage.setItem("Username", x);
+    let username = document.forms['loginform']['username'].value;
+    // sessionStorage.setItem("Username", username);
+    // let getVal=sessionStorage.getItem("Username");
+    return document.getElementById("user").innerHTML=username;
 }
-// function signin()
-// {
-//     let y = document.forms['signinform']['uname'].value;
-//     sessionStorage.setItem("Username", y);
-// }
-
-// export {login}
