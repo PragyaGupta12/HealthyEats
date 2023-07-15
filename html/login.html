@@ -15,14 +15,14 @@
     <section id="container">
         <!-- <h2>Login</h2> -->
         <div id="form-login-container">
-            <form action="Home.html" id="login-form" > 
+            <form action="Home.html" id="login-form" method="post"> 
                 <!-- onsubmit="return validateform()"method="post" -->
                 <h2>Login</h2>
                 <div class="form-grp">
                     <input type="text" name="username" id="form-username" placeholder="Username"  required>
                 </div>
                 <div class="form-grp">
-                    <input type="password" name="password" id="form-password" placeholder="Password"  required>
+                    <input type="password" name="password" id="form-password" placeholder="Password" pattern=".{8,}" required>
                 </div>
                 <div class="form-grp">
                     <input id="form-btn" type="submit" value="Login">

@@ -9,8 +9,10 @@ window.onload = function () {
         // e.preventDefault();
         const name = loginForm.username.value;
         const pass = loginForm.password.value;
-        sessionStorage.setItem("username", name);
-        sessionStorage.setItem("password", pass);
+        if (name !== '' && pass !== '' && pass) {
+            sessionStorage.setItem("username", name);
+            sessionStorage.setItem("password", pass);
+        }
 
         // if (name === sessionStorage.getItem("username", name) && pass === sessionStorage.getItem("password", pass)) {
         //     alert("You have successfully logged in.");
