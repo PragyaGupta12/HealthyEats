@@ -4,3 +4,4 @@ window.onload = function () {
     let obj = JSON.parse(text);
     document.getElementById("user").innerHTML = obj.name;
 }
+//the data being fetch is in JSON format

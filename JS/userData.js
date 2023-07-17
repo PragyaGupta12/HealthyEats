@@ -5,7 +5,7 @@ window.onload = function () {
     // const loginErrorMsg = document.getElementById("login-error-msg");
 
     loginButton.addEventListener("click", (e) => {
-
+//This way too will work but the one uncommented is saving the data in JSON format
         // e.preventDefault();
         // const name = loginForm.username.value;
         // const pass = loginForm.password.value;
