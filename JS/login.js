@@ -23,6 +23,8 @@ window.onload = function () {
         const password = document.getElementById('form-password').value
         const obj = { name: username, pass: password}
         const JSONObj = JSON.stringify(obj)
-        localStorage.setItem("userdata", JSONObj);
+        if(JSONObj !== ''){
+            localStorage.setItem("userdata", JSONObj);
+        }
     })
 }
